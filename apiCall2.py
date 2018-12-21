@@ -1,6 +1,6 @@
 import httplib2, json
 httpsObj = httplib2.Http()
-headers = {	"user_key": "fc1075d6b8e779a4488bc590c869404f",			#<-- INSERT YOUR API KEY HERE
+headers = {	"user_key": "<USER_KEY>",			#<-- INSERT YOUR API KEY HERE
 			"Content-Type": "application/json"	}
 body = """{
     "gender": "female",
